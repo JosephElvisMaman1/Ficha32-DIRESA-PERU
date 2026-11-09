@@ -63,17 +63,30 @@ flowchart TD
 
 ---
 
-## 📊 Muestras Visuales de Salidas Generadas
+## 📊 Galería Visual de Entregables y Documentos Generados
 
-El motor genera visualizaciones estandarizadas y listas para presentación a las gerencias de salud:
+El sistema produce automáticamente los entregables listos para la firma de gerencia y toma de decisiones:
 
-| Avance Acumulado vs. Meta | Ranking de Cumplimiento por Red |
+### 1. Documentos Ejecutivos Automatizados (Excel y Word)
+
+| Libro Contable Excel Multi-Hoja (.xlsx) | Informe Técnico Oficial Word (.docx) |
 |:---:|:---:|
-| ![Avance](docs/img/ejemplo_avance.png) | ![Ranking](docs/img/ejemplo_ranking.png) |
+| ![Libro Excel](docs/img/ejemplo_excel.png) | ![Informe Word](docs/img/ejemplo_word.png) |
+| *Libro completo con 7 pestañas: Resumen General, Redes, IPRESS Primer Nivel, Plan 2026, Palancas, Evolución Histórica y Cartera RENIPRESS con semáforos condicionales.* | *Informe institucional formal con estructura oficial DIRESA/MINSA, tablas de IPRESS priorizadas y gráficos estadísticos empotrados.* |
 
-| Semáforo Oficial de Estado | Interfaz Gráfica Administrativa |
+---
+
+### 2. Aplicación de Escritorio y Gráficos Estadísticos
+
+| Interfaz Gráfica de Escritorio (GUI) | Avance Acumulado vs. Meta Anual |
 |:---:|:---:|
-| ![Semáforo](docs/img/ejemplo_semaforo.png) | *Ventana intuitiva Tkinter con filtrado dinámico de IPRESS* |
+| ![Interfaz GUI](docs/img/ejemplo_gui.png) | ![Avance](docs/img/ejemplo_avance.png) |
+| *Aplicación administrativa intuitiva con filtros rápidos por Red de Salud, categorías (I-1 al II-2) y barra de progreso asíncrona.* | *Monitoreo en tiempo real del porcentaje de avance en Teleinterconsulta, Teleconsulta y Telemonitoreo frente a las metas.* |
+
+| Ranking de Cumplimiento por Red de Salud | Semáforo de Desempeño Institucional |
+|:---:|:---:|
+| ![Ranking](docs/img/ejemplo_ranking.png) | ![Semáforo](docs/img/ejemplo_semaforo.png) |
+| *Comparativa regional de las redes de salud para asignación focalizada de asistencia técnica y soporte operativo.* | *Distribución de establecimientos según los umbrales oficiales del convenio (Verde ≥ 60%, Amarillo 30–59.9%, Rojo < 30%).* |
 
 ---
 
