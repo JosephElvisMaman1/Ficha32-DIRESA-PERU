@@ -206,3 +206,4 @@ El indicador pondera 3 componentes fundamentales de la telemedicina:
 Desarrollado para la optimización del seguimiento de la gestión sanitaria en telemedicina.
 - **Institución:** Prácticas Pre-Profesionales / DIRESA - MINSA
 - **Propósito:** Automatización de Procesos de Salud Pública e Inteligencia de Datos
+- **Contacto:** https://www.linkedin.com/in/joseph-elvis-mamani-mendoza-9a16bb337/
