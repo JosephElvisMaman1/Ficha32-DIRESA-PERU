@@ -1,4 +1,4 @@
-# Ficha N.° 32 · Telemedicina — Automatización Analítica y Generador de Informes
+# Ficha N.° 32 · Telemedicina — Automatización Analítica y Generador de Informes (`Ficha32-DIRESA-PERU`)
 
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
 [![Platform Windows](https://img.shields.io/badge/Platform-Windows-0078D6.svg)](https://www.microsoft.com/)
@@ -149,8 +149,8 @@ Proy. Ficha32/
 
 1. Clonar el repositorio:
    ```bash
-   git clone https://github.com/TU_USUARIO/ficha32-telemedicina.git
-   cd ficha32-telemedicina
+   git clone https://github.com/JosephElvisMaman1/Ficha32-DIRESA-PERU.git
+   cd Ficha32-DIRESA-PERU
    ```
 
 2. Crear y activar un entorno virtual:
