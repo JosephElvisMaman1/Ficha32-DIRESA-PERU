@@ -1,0 +1,89 @@
+{
+  "api": {
+    "url": "https://api-ficha32-ditel-303392539829.europe-west1.run.app",
+    "renipress_url": "https://app20.susalud.gob.pe:8086/registro-renipress-webapp/listadoEstablecimientosRegistrados.htm?action=mostrarBuscar",
+    "timeout_segundos": 15,
+    "reintentos": 3
+  },
+  "servicios": [
+    {
+      "codigo": "TI",
+      "nombre": "Teleinterconsulta",
+      "peso": 60,
+      "activo": true,
+      "metas_tipo_a": {
+        "piso": 24,
+        "factor_denominador": 0.012
+      },
+      "metas_tipo_b": {
+        "piso": 100,
+        "factor_denominador": 0.004
+      }
+    },
+    {
+      "codigo": "TC",
+      "nombre": "Teleconsulta",
+      "peso": 10,
+      "activo": true,
+      "metas_tipo_a": {
+        "piso": 1,
+        "factor_denominador": 0.001
+      },
+      "metas_tipo_b": null
+    },
+    {
+      "codigo": "TM",
+      "nombre": "Telemonitoreo",
+      "peso": 30,
+      "activo": true,
+      "metas_tipo_a": {
+        "piso": 24,
+        "factor_denominador": 0.0072
+      },
+      "metas_tipo_b": null
+    }
+  ],
+  "formulas": {
+    "pesos": {
+      "TI": 60,
+      "TC": 10,
+      "TM": 30
+    },
+    "metas_tipo_a": {
+      "TI": {
+        "piso": 24,
+        "factor_denominador": 0.012
+      },
+      "TC": {
+        "piso": 1,
+        "factor_denominador": 0.001
+      },
+      "TM": {
+        "piso": 24,
+        "factor_denominador": 0.0072
+      }
+    },
+    "metas_tipo_b": {
+      "TI": {
+        "piso": 100,
+        "factor_denominador": 0.004
+      }
+    },
+    "semaforo": {
+      "verde_min": 60.0,
+      "amarillo_min": 30.0
+    },
+    "cumplimiento_oficial": {
+      "base_restar": 10.0,
+      "divisor": 90.0
+    }
+  },
+  "plan": {
+    "piso_capacidad_mes": 12,
+    "pct_capacidad_meta": 0.05,
+    "ratio_esfuerzo_cerca": 0.3333,
+    "fraccion_arranque": 0.3333,
+    "mes_inicio_plan": 11,
+    "mes_fin_plan": 12
+  }
+}

@@ -1,0 +1,45 @@
+# Entornos y binarios compilados
+dist/
+build/
+*.exe
+*.spec.bak
+
+# Generador privado de licencias y archivos de activación (CRÍTICO: nunca subir a GitHub)
+generar_codigo.py
+*.lic
+*.license
+license.dat
+
+# Salidas generadas e informes administrativos
+informes/
+words/
+graficos/
+test_output*/
+Ficha32_Telemedicina_Mes*.xlsx
+
+# Logs y depuración
+*.log
+errores_app.log
+
+# Caché de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Directorio de parches y pruebas internas
+scratch/
+
+# Entornos virtuales
+venv/
+env/
+.env
+
+# Configuraciones de editores e IDEs
+.vscode/
+.idea/
+.gemini/
+
+# Archivos del sistema operativo
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/

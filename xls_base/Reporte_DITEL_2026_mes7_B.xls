@@ -1,0 +1,81 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns="http://www.w3.org/TR/REC-html40">
+            <head><meta charset="UTF-8"></head><body><table border="1">
+                <tr>
+                    <th style="background-color:#573375;color:white;">DIRESA</th>
+                    <th style="background-color:#573375;color:white;">PROVINCIA</th>
+                    <th style="background-color:#573375;color:white;">ESTABLECIMIENTO / IPRESS</th>
+                    <th style="background-color:#573375;color:white;">MES</th>
+                    <th style="background-color:#573375;color:white;">LOGRO</th>
+                    <th style="background-color:#573375;color:white;">DENOMINADOR</th>
+                    <th style="background-color:#1f3e8f;color:white;">TI REALIZADAS</th>
+                    <th style="background-color:#1f3e8f;color:white;">TI META</th>
+                    <th style="background-color:#f59e0b;color:white;">TC REALIZADAS</th>
+                    <th style="background-color:#f59e0b;color:white;">TC META</th>
+                    <th style="background-color:#006b5f;color:white;">TM REALIZADAS</th>
+                    <th style="background-color:#006b5f;color:white;">TM META</th>
+                </tr><tr>
+                    <td>PUNO</td>
+                    <td>EL COLLAO</td>
+                    <td>II-1  - 00003032 - ILAVE</td>
+                    <td>7</td>
+                    <td>B</td>
+                    <td>3260</td>
+                    <td>27</td>
+                    <td>100</td>
+                    <td>0</td>
+                    <td>--</td>
+                    <td>0</td>
+                    <td>--</td>
+                </tr><tr>
+                    <td>PUNO</td>
+                    <td>CARABAYA</td>
+                    <td>II-2  - 00031179 - HOSPITAL SAN MARTIN DE PORRES</td>
+                    <td>7</td>
+                    <td>B</td>
+                    <td>95774</td>
+                    <td>149</td>
+                    <td>383</td>
+                    <td>0</td>
+                    <td>--</td>
+                    <td>0</td>
+                    <td>--</td>
+                </tr><tr>
+                    <td>PUNO</td>
+                    <td>MELGAR</td>
+                    <td>II-1  - 00035288 - HOSPITAL SAN JUAN DE DIOS</td>
+                    <td>7</td>
+                    <td>B</td>
+                    <td>20561</td>
+                    <td>176</td>
+                    <td>100</td>
+                    <td>0</td>
+                    <td>--</td>
+                    <td>0</td>
+                    <td>--</td>
+                </tr><tr>
+                    <td>PUNO</td>
+                    <td>PUNO</td>
+                    <td>II-2  - 00003251 - HOSPITAL REGIONAL MANUEL NUÑEZ BUTRON</td>
+                    <td>7</td>
+                    <td>B</td>
+                    <td>54860</td>
+                    <td>986</td>
+                    <td>219</td>
+                    <td>0</td>
+                    <td>--</td>
+                    <td>0</td>
+                    <td>--</td>
+                </tr><tr>
+                    <td>PUNO</td>
+                    <td>SAN ROMAN</td>
+                    <td>II-2  - 00003299 - CARLOS MONJE MEDRANO</td>
+                    <td>7</td>
+                    <td>B</td>
+                    <td>85175</td>
+                    <td>671</td>
+                    <td>341</td>
+                    <td>0</td>
+                    <td>--</td>
+                    <td>0</td>
+                    <td>--</td>
+                </tr></table></body></html>
